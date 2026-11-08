@@ -1,0 +1,80 @@
+{
+  "name": "lucas-plugins",
+  "description": "Claude Code plugins by Lucas Saldanha Werneck: verification guards, session tools, web and desktop helpers.",
+  "owner": {
+    "name": "Lucas Saldanha Werneck",
+    "url": "https://github.com/lucas-saldanha-werneck"
+  },
+  "plugins": [
+    {
+      "name": "handoff-terminal",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/handoff-terminal"
+      },
+      "description": "When the Claude desktop app refuses a sign-in or personal-data step in the browser, a hidden terminal session does it and hands the result back.",
+      "category": "desktop",
+      "homepage": "https://github.com/lucas-saldanha-werneck/handoff-terminal"
+    },
+    {
+      "name": "op-secrets",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/Claude-1Password"
+      },
+      "description": "Save and load secrets through 1Password without the values ever entering the chat.",
+      "category": "security",
+      "homepage": "https://github.com/lucas-saldanha-werneck/Claude-1Password"
+    },
+    {
+      "name": "assumptions-pane",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/assumptions-pane"
+      },
+      "description": "A side pane where Claude logs every assumption it makes, so you can confirm or correct it with a click.",
+      "category": "productivity",
+      "homepage": "https://github.com/lucas-saldanha-werneck/assumptions-pane"
+    },
+    {
+      "name": "save-clear",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/save-clear"
+      },
+      "description": "Save decisions and next steps to a snapshot, clear the session, and resume from the snapshot in the next one.",
+      "category": "productivity",
+      "homepage": "https://github.com/lucas-saldanha-werneck/save-clear"
+    },
+    {
+      "name": "give-up-guard",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/give-up-guard"
+      },
+      "description": "Stop hook: when Claude ends with 'I didn't check X', hands the task back or asks you for data, it is sent back to check first.",
+      "category": "verification",
+      "homepage": "https://github.com/lucas-saldanha-werneck/give-up-guard"
+    },
+    {
+      "name": "wait-loop-guard",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/wait-loop-guard"
+      },
+      "description": "Blocks Bash wait loops (until/while) that have no deadline, so Claude can't hang forever.",
+      "category": "verification",
+      "homepage": "https://github.com/lucas-saldanha-werneck/wait-loop-guard"
+    },
+    {
+      "name": "web-unlock-guard",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/web-unlock-guard"
+      },
+      "description": "Guards web scraping: stop retrying a failing method, no headless browser on Cloudflare pages, no debug port without a separate profile.",
+      "category": "web",
+      "homepage": "https://github.com/lucas-saldanha-werneck/web-unlock-guard"
+    }
+  ]
+}
