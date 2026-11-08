@@ -112,7 +112,7 @@
         "source": "github",
         "repo": "lucas-saldanha-werneck/llm-council"
       },
-      "description": "Ask several LLMs from different vendors through OpenRouter; they answer, rank each other anonymously, and a chairman model writes the final answer.",
+      "description": "Ask several LLMs from different vendors through OpenRouter; they answer, rank each other anonymously, and a chairman model writes the final answer. Also cross-review: the same plan to the council and to Codex in parallel.",
       "category": "research",
       "homepage": "https://github.com/lucas-saldanha-werneck/llm-council"
     },
@@ -122,7 +122,7 @@
         "source": "github",
         "repo": "lucas-saldanha-werneck/mac-remote"
       },
-      "description": "Lets Claude see and control your Mac through Screen Sharing, even with the screen locked: unlock, screenshot, click, type, lock again.",
+      "description": "Lets Claude see and control your Mac through Screen Sharing, even with the screen locked: unlock, screenshot, click, type, lock again. Can also restart a FileVault Mac without stopping at the disk password.",
       "category": "desktop",
       "homepage": "https://github.com/lucas-saldanha-werneck/mac-remote"
     },
@@ -135,6 +135,56 @@
       "description": "Turns Remote Control on for a desktop-app session when you type in it, and off again after 24 hours without a message from you.",
       "category": "desktop",
       "homepage": "https://github.com/lucas-saldanha-werneck/rc-auto"
+    },
+    {
+      "name": "session-keeper",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/session-keeper"
+      },
+      "description": "Restart your Mac, iTerm2 or a single Claude Code session without losing windows or conversations: snapshot, then reopen and resume.",
+      "category": "session",
+      "homepage": "https://github.com/lucas-saldanha-werneck/session-keeper"
+    },
+    {
+      "name": "remote-sessions",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/remote-sessions"
+      },
+      "description": "From the phone (Remote Control): open or resume a Claude Code session in another project folder in a new terminal window, or fork the current one.",
+      "category": "session",
+      "homepage": "https://github.com/lucas-saldanha-werneck/remote-sessions"
+    },
+    {
+      "name": "session-archive",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/session-archive"
+      },
+      "description": "Archives your Claude Code conversations (a readable digest plus the gzipped transcript) before Claude Code deletes old ones.",
+      "category": "session",
+      "homepage": "https://github.com/lucas-saldanha-werneck/session-archive"
+    },
+    {
+      "name": "launchd-agenda",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/claude-agenda"
+      },
+      "description": "Schedule Claude Code sessions on your Mac with launchd, so they run locally with your skills and hooks.",
+      "category": "mac",
+      "homepage": "https://github.com/lucas-saldanha-werneck/claude-agenda"
+    },
+    {
+      "name": "web-unlock",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/web-unlock"
+      },
+      "description": "A skill for when a normal web fetch is blocked: ladders by site type, a per-site registry of what worked, and a search doctrine. Pairs with web-unlock-guard.",
+      "category": "web",
+      "homepage": "https://github.com/lucas-saldanha-werneck/web-unlock"
     }
   ]
 }
