@@ -1,6 +1,6 @@
 {
   "name": "lucas-plugins",
-  "description": "Claude Code plugins by Lucas Saldanha Werneck: verification guards, session tools, web and desktop helpers.",
+  "description": "Claude Code plugins by Lucas Saldanha Werneck: verification guards, session tools, research, web and desktop helpers.",
   "owner": {
     "name": "Lucas Saldanha Werneck",
     "url": "https://github.com/lucas-saldanha-werneck"
@@ -75,6 +75,66 @@
       "description": "Guards web scraping: stop retrying a failing method, no headless browser on Cloudflare pages, no debug port without a separate profile.",
       "category": "web",
       "homepage": "https://github.com/lucas-saldanha-werneck/web-unlock-guard"
+    },
+    {
+      "name": "self-improve",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/self-improve"
+      },
+      "description": "Finds where you corrected Claude more than once and proposes the fix in CLAUDE.md, skills or memory; small fixes apply alone, the rest wait for your OK.",
+      "category": "productivity",
+      "homepage": "https://github.com/lucas-saldanha-werneck/self-improve"
+    },
+    {
+      "name": "idea-shelf",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/idea-shelf"
+      },
+      "description": "A side shelf for ideas that come up mid-task: jot them down without sidetracking Claude, then send the list in one click.",
+      "category": "productivity",
+      "homepage": "https://github.com/lucas-saldanha-werneck/idea-shelf"
+    },
+    {
+      "name": "polish",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/polish"
+      },
+      "description": "A simplicity review in the style of Linear or Apple Notes: lists every change with its gain and risk, and changes nothing until you pick.",
+      "category": "productivity",
+      "homepage": "https://github.com/lucas-saldanha-werneck/polish"
+    },
+    {
+      "name": "llm-council",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/llm-council"
+      },
+      "description": "Ask several LLMs from different vendors through OpenRouter; they answer, rank each other anonymously, and a chairman model writes the final answer.",
+      "category": "research",
+      "homepage": "https://github.com/lucas-saldanha-werneck/llm-council"
+    },
+    {
+      "name": "mac-remote",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/mac-remote"
+      },
+      "description": "Lets Claude see and control your Mac through Screen Sharing, even with the screen locked: unlock, screenshot, click, type, lock again.",
+      "category": "desktop",
+      "homepage": "https://github.com/lucas-saldanha-werneck/mac-remote"
+    },
+    {
+      "name": "rc-auto",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/rc-auto"
+      },
+      "description": "Turns Remote Control on for a desktop-app session when you type in it, and off again after 24 hours without a message from you.",
+      "category": "desktop",
+      "homepage": "https://github.com/lucas-saldanha-werneck/rc-auto"
     }
   ]
 }
