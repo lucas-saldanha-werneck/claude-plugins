@@ -97,6 +97,36 @@
       "homepage": "https://github.com/lucas-saldanha-werneck/idea-shelf"
     },
     {
+      "name": "side-stack",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/side-stack"
+      },
+      "description": "One side pane that stacks assumptions-pane, idea-shelf, plan-checklist and quiet-tools one under the other, instead of one tab each.",
+      "category": "productivity",
+      "homepage": "https://github.com/lucas-saldanha-werneck/side-stack"
+    },
+    {
+      "name": "plan-checklist",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/plan-checklist"
+      },
+      "description": "A plain checklist of Claude's plan beside the chat: Claude lists the steps first and ticks them off as it works.",
+      "category": "productivity",
+      "homepage": "https://github.com/lucas-saldanha-werneck/plan-checklist"
+    },
+    {
+      "name": "quiet-tools",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/quiet-tools"
+      },
+      "description": "One switch that hides the tool-call rows in the conversation, so you read only Claude's answers and the plan.",
+      "category": "productivity",
+      "homepage": "https://github.com/lucas-saldanha-werneck/quiet-tools"
+    },
+    {
       "name": "polish",
       "source": {
         "source": "github",

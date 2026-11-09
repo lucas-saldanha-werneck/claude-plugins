@@ -21,6 +21,9 @@ Then install the ones you want, for example:
 - **[save-clear](https://github.com/lucas-saldanha-werneck/save-clear)**: saves decisions and next steps to a snapshot, clears the session, and the next session starts from the snapshot. You stop managing context by hand.
 - **[assumptions-pane](https://github.com/lucas-saldanha-werneck/assumptions-pane)**: a side pane where Claude logs each assumption it makes. You mark each one right or wrong, so a wrong guess gets caught early.
 - **[idea-shelf](https://github.com/lucas-saldanha-werneck/idea-shelf)**: a side shelf for ideas that come up mid-task. Jot them down without sidetracking Claude, then send the list in one click.
+- **[plan-checklist](https://github.com/lucas-saldanha-werneck/plan-checklist)**: a plain checklist of Claude's plan beside the chat. Claude lists the steps first and ticks them off as it works.
+- **[quiet-tools](https://github.com/lucas-saldanha-werneck/quiet-tools)**: one switch that hides the tool-call rows, so you read only Claude's answers and the plan.
+- **[side-stack](https://github.com/lucas-saldanha-werneck/side-stack)**: one side pane that stacks the four above one under the other. Without it, each one opens its own tab.
 - **[self-improve](https://github.com/lucas-saldanha-werneck/self-improve)**: reads your recent sessions, finds where you corrected Claude more than once, and proposes the change in `CLAUDE.md`, a skill or memory. Small fixes are applied alone; the rest wait for your OK.
 - **[session-keeper](https://github.com/lucas-saldanha-werneck/session-keeper)**: restart your Mac, iTerm2 or a single Claude Code session without losing windows or conversations. It takes a snapshot, then reopens and resumes each session. macOS.
 - **[remote-sessions](https://github.com/lucas-saldanha-werneck/remote-sessions)**: from the phone, open or resume a Claude Code session in another project folder in a new terminal window with Remote Control on, or fork the current session.
