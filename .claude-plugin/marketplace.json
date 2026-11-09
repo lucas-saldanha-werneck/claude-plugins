@@ -102,7 +102,7 @@
         "source": "github",
         "repo": "lucas-saldanha-werneck/side-stack"
       },
-      "description": "One side pane that stacks assumptions-pane, idea-shelf, plan-checklist and quiet-tools one under the other, instead of one tab each.",
+      "description": "One side pane that stacks assumptions-pane, idea-shelf, plan-checklist and clean-view one under the other, in an order you can change, instead of one tab each.",
       "category": "productivity",
       "homepage": "https://github.com/lucas-saldanha-werneck/side-stack"
     },
@@ -117,14 +117,14 @@
       "homepage": "https://github.com/lucas-saldanha-werneck/plan-checklist"
     },
     {
-      "name": "quiet-tools",
+      "name": "clean-view",
       "source": {
         "source": "github",
-        "repo": "lucas-saldanha-werneck/quiet-tools"
+        "repo": "lucas-saldanha-werneck/clean-view"
       },
-      "description": "One switch that hides the tool-call rows in the conversation, so you read only Claude's answers and the plan.",
+      "description": "One switch (/quiet) that hides the tool-call rows in the conversation, so you read only Claude's answers and the plan.",
       "category": "productivity",
-      "homepage": "https://github.com/lucas-saldanha-werneck/quiet-tools"
+      "homepage": "https://github.com/lucas-saldanha-werneck/clean-view"
     },
     {
       "name": "polish",
