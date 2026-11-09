@@ -1,6 +1,6 @@
 # claude-plugins
 
-The Claude Code plugins I use every day, in one catalog. Each plugin lives in its own repo with its own README; this repo only lists them, so you can add them all with one command.
+The Claude Code plugins I use every day. Each one lives in its own repo with its own README; this repo lists them.
 
 ## Install
 
@@ -16,54 +16,51 @@ Then install the ones you want, for example:
 /plugin install save-clear@lucas-plugins
 ```
 
-## Session
+## Sessions
 
-- **[save-clear](https://github.com/lucas-saldanha-werneck/save-clear)**: saves decisions and next steps to a snapshot, clears the session, and the next session starts from the snapshot. You stop managing context by hand.
-- **[assumptions-pane](https://github.com/lucas-saldanha-werneck/assumptions-pane)**: a side pane where Claude logs each assumption it makes. You mark each one right or wrong, so a wrong guess gets caught early.
-- **[idea-shelf](https://github.com/lucas-saldanha-werneck/idea-shelf)**: a side shelf for ideas that come up mid-task. Jot them down without sidetracking Claude, then send the list in one click.
-- **[plan-checklist](https://github.com/lucas-saldanha-werneck/plan-checklist)**: a plain checklist of Claude's plan beside the chat. Claude lists the steps first and ticks them off as it works.
-- **[clean-view](https://github.com/lucas-saldanha-werneck/clean-view)**: one switch (`/quiet`) that hides the tool-call rows, so you read only Claude's answers and the plan.
-- **[side-stack](https://github.com/lucas-saldanha-werneck/side-stack)**: one side pane that stacks the four above one under the other. Without it, each one opens its own tab.
-- **[self-improve](https://github.com/lucas-saldanha-werneck/self-improve)**: reads your recent sessions, finds where you corrected Claude more than once, and proposes the change in `CLAUDE.md`, a skill or memory. Small fixes are applied alone; the rest wait for your OK.
-- **[session-keeper](https://github.com/lucas-saldanha-werneck/session-keeper)**: restart your Mac, iTerm2 or a single Claude Code session without losing windows or conversations. It takes a snapshot, then reopens and resumes each session. macOS.
-- **[remote-sessions](https://github.com/lucas-saldanha-werneck/remote-sessions)**: from the phone, open or resume a Claude Code session in another project folder in a new terminal window with Remote Control on, or fork the current session.
-- **[session-archive](https://github.com/lucas-saldanha-werneck/session-archive)**: copies your conversations (a readable digest plus the full transcript) to a folder you choose, before Claude Code deletes old ones.
+- **[save-clear](https://github.com/lucas-saldanha-werneck/save-clear)**: saves decisions and next steps, clears the context, and the next session starts from them. You stop managing context by hand.
+- **[session-keeper](https://github.com/lucas-saldanha-werneck/session-keeper)**: restart your Mac, iTerm2 or one Claude Code session without losing windows or conversations. It takes a snapshot, then reopens and resumes each session. macOS.
+- **[remote-sessions](https://github.com/lucas-saldanha-werneck/remote-sessions)**: open, resume or fork Claude Code sessions on your computer from your phone, each in a new terminal window with Remote Control on.
+- **[session-archive](https://github.com/lucas-saldanha-werneck/session-archive)**: copies each Claude Code conversation (a readable digest plus the full transcript) to an archive before Claude Code deletes old ones.
+- **[rc-auto](https://github.com/lucas-saldanha-werneck/rc-auto)**: turns Remote Control on when you type in a desktop-app session, and off after 24 idle hours.
 
-## Verification
+## Side panes
 
-- **[give-up-guard](https://github.com/lucas-saldanha-werneck/give-up-guard)**: when Claude ends a turn with "I didn't check X", hands the task back, or asks you for data it could find, it is sent back to check first.
-- **[wait-loop-guard](https://github.com/lucas-saldanha-werneck/wait-loop-guard)**: blocks Bash `until`/`while` wait loops that have no deadline, so Claude can't hang forever.
-- **[polish](https://github.com/lucas-saldanha-werneck/polish)**: a simplicity review of an app, page or code in the style of Linear or Apple Notes. It lists every change it would make with the gain and the risk, and changes nothing until you pick.
+- **[assumptions-pane](https://github.com/lucas-saldanha-werneck/assumptions-pane)**: a side pane that lists each assumption Claude makes, so you can mark it right or wrong and catch a wrong guess early.
+- **[idea-shelf](https://github.com/lucas-saldanha-werneck/idea-shelf)**: a side pane to park ideas mid-task without stopping Claude, then send them in one click.
+- **[plan-checklist](https://github.com/lucas-saldanha-werneck/plan-checklist)**: Claude's plan as a checklist in a side pane, ticked off as it works.
+- **[clean-view](https://github.com/lucas-saldanha-werneck/clean-view)**: one switch (`/quiet`) that hides the tool rows, so you read only the conversation.
+- **[side-stack](https://github.com/lucas-saldanha-werneck/side-stack)**: one side pane where the four above stack, one under the other, instead of one tab each.
 
-## Research
+## Checks
 
-- **[llm-council](https://github.com/lucas-saldanha-werneck/llm-council)**: asks several LLMs from different vendors through OpenRouter. They answer in parallel, rank each other's answers anonymously, and a chairman model writes the final answer. Uses your OpenRouter credits. Its cross-review skill sends the same plan to the council and to Codex at the same time.
+- **[give-up-guard](https://github.com/lucas-saldanha-werneck/give-up-guard)**: sends Claude back to check when it ends with "didn't check", gives up, or asks you for data it could find.
+- **[wait-loop-guard](https://github.com/lucas-saldanha-werneck/wait-loop-guard)**: blocks Bash wait loops with no deadline, so Claude can't hang forever.
+- **[self-improve](https://github.com/lucas-saldanha-werneck/self-improve)**: finds where you corrected Claude more than once and proposes the fix in `CLAUDE.md`, a skill or memory. Small fixes apply alone; the rest wait for your OK.
+- **[polish](https://github.com/lucas-saldanha-werneck/polish)**: a simplicity review in the style of Linear or Apple Notes: every change with its UX, DX and AX gain, applied only after you pick.
+- **[llm-council](https://github.com/lucas-saldanha-werneck/llm-council)**: asks several LLMs through OpenRouter; they rank each other's answers and one writes the final answer. Uses your OpenRouter credits.
 
 ## Web
 
-- **[web-unlock](https://github.com/lucas-saldanha-werneck/web-unlock)**: what to do when a normal fetch is blocked: steps by type of site, a record of what worked on each site, and rules before saying something does not exist.
-- **[web-unlock-guard](https://github.com/lucas-saldanha-werneck/web-unlock-guard)**: stops Claude from retrying a blocked site with the same method, from using a headless browser on Cloudflare pages, and from opening a browser debug port without a separate profile.
+- **[web-unlock](https://github.com/lucas-saldanha-werneck/web-unlock)**: what Claude does when a web fetch is blocked: steps per site type and a record of what worked on each site.
+- **[web-unlock-guard](https://github.com/lucas-saldanha-werneck/web-unlock-guard)**: stops Claude from retrying a blocked site the same way.
 
-## Desktop app
+## Sign-in and secrets
 
-- **[handoff-terminal](https://github.com/lucas-saldanha-werneck/handoff-terminal)**: when the desktop app refuses a sign-in or personal-data step in the browser, a hidden terminal session does it and hands the result back.
-- **[rc-auto](https://github.com/lucas-saldanha-werneck/rc-auto)**: turns Remote Control on for a desktop-app session when you type in it, and off again after 24 hours without a message from you.
+- **[op-secrets](https://github.com/lucas-saldanha-werneck/op-secrets)**: save and load secrets through 1Password without the values entering the chat.
+- **[handoff-terminal](https://github.com/lucas-saldanha-werneck/handoff-terminal)**: a terminal session does the sign-in steps the desktop app refuses, and hands the result back.
 
 ## Mac
 
-- **[mac-remote](https://github.com/lucas-saldanha-werneck/mac-remote)**: lets Claude see and control your Mac through Screen Sharing, even with the screen locked. Useful when you are away from the Mac. Read its warning before you install. It can also restart a Mac with FileVault without stopping at the disk password.
-- **[launchd-agenda](https://github.com/lucas-saldanha-werneck/claude-agenda)**: schedule Claude Code sessions with launchd, so they run on your Mac with your own skills and hooks.
-
-## Secrets
-
-- **[op-secrets](https://github.com/lucas-saldanha-werneck/Claude-1Password)**: save and load secrets through 1Password without the values entering the chat.
+- **[mac-remote](https://github.com/lucas-saldanha-werneck/mac-remote)**: lets Claude see and control your Mac through Screen Sharing, even when it is locked. Read its warning before you install.
+- **[launchd-agenda](https://github.com/lucas-saldanha-werneck/launchd-agenda)**: schedules Claude Code sessions on your Mac with launchd, with your local skills and hooks.
 
 ## Command-line tools
 
 These are not plugins. Each repo has an `install.sh`.
 
-- **[stable-sync](https://github.com/lucas-saldanha-werneck/stable-sync)**: keeps a fixed-path copy of the `claude` and `op` programs, so macOS privacy permissions survive every update.
-- **[meeting-copilot](https://github.com/lucas-saldanha-werneck/meeting-copilot)**: while the Muesli app records a meeting, shows suggestions, corrections and facts from Claude on a local page. macOS.
+- **[stable-sync](https://github.com/lucas-saldanha-werneck/stable-sync)**: keeps a fixed-path copy of `claude` and `op` so macOS permissions survive updates.
+- **[meeting-copilot](https://github.com/lucas-saldanha-werneck/meeting-copilot)**: suggestions, corrections and facts from Claude while Muesli records a meeting. macOS.
 
 ## License
 
