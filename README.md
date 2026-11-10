@@ -1,6 +1,6 @@
 # claude-plugins
 
-The Claude Code plugins I use every day. Each one lives in its own repo with its own README; this repo lists them.
+Claude Code plugins: Claude checks its own work and learns from your corrections; sessions survive restarts and /clear, get archived before deletion, and open from your phone or a terminal; side panes for assumptions and ideas; secrets from password managers; Mac control even when locked; scheduled runs; multi-LLM opinions; blocked-site access.
 
 ## Install
 
