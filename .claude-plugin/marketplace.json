@@ -1,6 +1,6 @@
 {
   "name": "lucas-plugins",
-  "description": "The Claude Code plugins I use every day.",
+  "description": "Claude Code plugins by Lucas Saldanha Werneck: verification guards, session tools, research, web and desktop helpers.",
   "owner": {
     "name": "Lucas Saldanha Werneck",
     "url": "https://github.com/lucas-saldanha-werneck"
@@ -155,6 +155,16 @@
       "description": "Asks several LLMs through OpenRouter; they rank each other's answers and one writes the final answer.",
       "category": "checks",
       "homepage": "https://github.com/lucas-saldanha-werneck/llm-council"
+    },
+    {
+      "name": "plugin-dev-guard",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/plugin-dev-guard"
+      },
+      "description": "Stops Claude from editing the installed copy of a plugin and points it to the source repo (or a fork and PR); checks repos against installed copies.",
+      "category": "checks",
+      "homepage": "https://github.com/lucas-saldanha-werneck/plugin-dev-guard"
     },
     {
       "name": "web-unlock",
