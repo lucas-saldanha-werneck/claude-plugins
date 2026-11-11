@@ -235,6 +235,16 @@
       "description": "Schedules Claude Code sessions on your Mac with launchd, with your local skills and hooks.",
       "category": "mac",
       "homepage": "https://github.com/lucas-saldanha-werneck/launchd-agenda"
+    },
+    {
+      "name": "api-credit",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/api-credit"
+      },
+      "description": "Runs claude -p scripts on your plan's monthly API credit first, and on the subscription when the API refuses.",
+      "category": "scripts",
+      "homepage": "https://github.com/lucas-saldanha-werneck/api-credit"
     }
   ]
 }

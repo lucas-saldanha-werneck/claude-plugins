@@ -57,6 +57,10 @@ Then install the ones you want, for example:
 - **[mac-remote](https://github.com/lucas-saldanha-werneck/mac-remote)**: lets Claude see and control your Mac through Screen Sharing, even when it is locked. Read its warning before you install.
 - **[launchd-agenda](https://github.com/lucas-saldanha-werneck/launchd-agenda)**: schedules Claude Code sessions on your Mac with launchd, with your local skills and hooks.
 
+## Scripts
+
+- **[api-credit](https://github.com/lucas-saldanha-werneck/api-credit)**: runs `claude -p` scripts on your plan's monthly API credit first, and on the subscription when the API refuses, so the credit is used and no job stops when it ends.
+
 ## Command-line tools
 
 These are not plugins. Each repo has an `install.sh`.
