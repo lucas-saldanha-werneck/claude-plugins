@@ -40,6 +40,7 @@ Then install the ones you want, for example:
 - **[polish](https://github.com/lucas-saldanha-werneck/polish)**: a simplicity review in the style of Linear or Apple Notes: every change with its UX, DX and AX gain, applied only after you pick.
 - **[llm-council](https://github.com/lucas-saldanha-werneck/llm-council)**: asks several LLMs through OpenRouter; they rank each other's answers and one writes the final answer. Uses your OpenRouter credits.
 - **[plugin-dev-guard](https://github.com/lucas-saldanha-werneck/plugin-dev-guard)**: stops Claude from editing the installed copy of a plugin, where the next update would wipe the change, and points it to your source repo, or to a fork and a pull request to the author. `plugin-dev-check` lists your repos next to their installed copies.
+- **[side-notes](https://github.com/lucas-saldanha-werneck/side-notes)**: every few steps a side check looks for one thing you may have missed and shows it as a short note above the prompt.
 
 ## Web
 

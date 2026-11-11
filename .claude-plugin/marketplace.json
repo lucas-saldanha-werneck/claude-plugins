@@ -167,6 +167,16 @@
       "homepage": "https://github.com/lucas-saldanha-werneck/plugin-dev-guard"
     },
     {
+      "name": "side-notes",
+      "source": {
+        "source": "github",
+        "repo": "lucas-saldanha-werneck/side-notes"
+      },
+      "description": "Every few steps a side check looks for one thing you may have missed and shows it as a short note above the prompt.",
+      "category": "checks",
+      "homepage": "https://github.com/lucas-saldanha-werneck/side-notes"
+    },
+    {
       "name": "web-unlock",
       "source": {
         "source": "github",
