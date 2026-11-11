@@ -13,7 +13,7 @@ Add the catalog once:
 Then install the ones you want, for example:
 
 ```
-/plugin install save-clear@lucas-plugins
+/plugin install save-clear@lucas-tools
 ```
 
 ## Sessions
