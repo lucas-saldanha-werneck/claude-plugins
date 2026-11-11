@@ -32,7 +32,7 @@
         "source": "github",
         "repo": "lucas-saldanha-werneck/remote-sessions"
       },
-      "description": "Open, resume or fork Claude Code sessions on your computer from your phone.",
+      "description": "Open, resume, fork or move Claude Code sessions on your computer from your phone.",
       "category": "sessions",
       "homepage": "https://github.com/lucas-saldanha-werneck/remote-sessions"
     },

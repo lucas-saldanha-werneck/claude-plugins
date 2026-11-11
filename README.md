@@ -1,4 +1,4 @@
-# claude-plugins
+# lucas-tools
 
 Claude Code plugins: Claude checks its own work and learns from your corrections; sessions survive restarts and /clear, get archived before deletion, and open from your phone or a terminal; side panes for assumptions and ideas; secrets from password managers; Mac control even when locked; scheduled runs; multi-LLM opinions; blocked-site access.
 
@@ -7,7 +7,7 @@ Claude Code plugins: Claude checks its own work and learns from your corrections
 Add the catalog once:
 
 ```
-/plugin marketplace add lucas-saldanha-werneck/claude-plugins
+/plugin marketplace add lucas-saldanha-werneck/lucas-tools
 ```
 
 Then install the ones you want, for example:
@@ -20,7 +20,7 @@ Then install the ones you want, for example:
 
 - **[save-clear](https://github.com/lucas-saldanha-werneck/save-clear)**: saves decisions and next steps, clears the context, and the next session starts from them. You stop managing context by hand.
 - **[session-keeper](https://github.com/lucas-saldanha-werneck/session-keeper)**: restart your Mac, iTerm2 or one Claude Code session without losing windows or conversations. It takes a snapshot, then reopens and resumes each session. macOS.
-- **[remote-sessions](https://github.com/lucas-saldanha-werneck/remote-sessions)**: open, resume or fork Claude Code sessions on your computer from your phone, each in a new terminal window with Remote Control on.
+- **[remote-sessions](https://github.com/lucas-saldanha-werneck/remote-sessions)**: open, resume or fork Claude Code sessions on your computer from your phone, each in a new terminal window with Remote Control on, and move a session between the desktop app and a terminal.
 - **[session-archive](https://github.com/lucas-saldanha-werneck/session-archive)**: copies each Claude Code conversation (a readable digest plus the full transcript) to an archive before Claude Code deletes old ones.
 - **[rc-auto](https://github.com/lucas-saldanha-werneck/rc-auto)**: turns Remote Control on when you type in a desktop-app session, and off after 24 idle hours.
 
