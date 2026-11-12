@@ -12,8 +12,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm i -g @anthropic-ai/claude-code
+      - run: npm i -g @anthropic-ai/claude-code@2.1.322
       - run: claude plugin validate .
+      - name: check script tests
+        run: python3 tests/test_check.py
       - name: catalog matches each plugin repo
         run: python3 scripts/check.py
         env:
