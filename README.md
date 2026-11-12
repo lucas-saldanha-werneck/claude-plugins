@@ -65,7 +65,7 @@ Then install the ones you want, for example:
 
 These are not plugins. Each repo has an `install.sh`.
 
-- **[stable-sync](https://github.com/lucas-saldanha-werneck/stable-sync)**: keeps a fixed-path copy of `claude` and `op` so macOS permissions survive updates.
+- **[stable-sync](https://github.com/lucas-saldanha-werneck/stable-sync)**: keeps a fixed-path copy of `op` (1Password CLI) so macOS permissions survive updates.
 - **[meeting-copilot](https://github.com/lucas-saldanha-werneck/meeting-copilot)**: suggestions, corrections and facts from Claude while Muesli records a meeting. macOS.
 
 ## License
