@@ -1,6 +1,6 @@
 # lucas-tools
 
-Claude Code plugins: Claude checks its own work and learns from your corrections; sessions survive restarts and /clear, get archived before deletion, and open from your phone or a terminal; side panes for assumptions and ideas; secrets from password managers; Mac control even when locked; scheduled runs; multi-LLM opinions; blocked-site access.
+26 AI tools for Claude Code (skills, hooks, mods and commands): Claude checks its own work and learns from your corrections; sessions survive restarts and /clear, get archived before deletion, and open from your phone or a terminal; side panes for assumptions and ideas; secrets from password managers; Mac control even when locked; scheduled runs; multi-LLM opinions; blocked-site access.
 
 ## Install
 
