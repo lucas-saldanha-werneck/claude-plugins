@@ -14,7 +14,11 @@
       },
       "description": "Saves decisions and next steps, clears the context, and the next session starts from them.",
       "category": "sessions",
-      "homepage": "https://github.com/lucas-saldanha-werneck/save-clear"
+      "homepage": "https://github.com/lucas-saldanha-werneck/save-clear",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "session-keeper",
@@ -24,7 +28,11 @@
       },
       "description": "Restart your Mac, iTerm2 or one Claude Code session without losing windows or conversations.",
       "category": "sessions",
-      "homepage": "https://github.com/lucas-saldanha-werneck/session-keeper"
+      "homepage": "https://github.com/lucas-saldanha-werneck/session-keeper",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "remote-sessions",
@@ -34,7 +42,11 @@
       },
       "description": "Open, resume, fork or move Claude Code sessions on your computer from your phone.",
       "category": "sessions",
-      "homepage": "https://github.com/lucas-saldanha-werneck/remote-sessions"
+      "homepage": "https://github.com/lucas-saldanha-werneck/remote-sessions",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "session-archive",
@@ -44,7 +56,11 @@
       },
       "description": "Copies each Claude Code conversation to an archive before Claude Code deletes old ones.",
       "category": "sessions",
-      "homepage": "https://github.com/lucas-saldanha-werneck/session-archive"
+      "homepage": "https://github.com/lucas-saldanha-werneck/session-archive",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "rc-auto",
@@ -54,7 +70,11 @@
       },
       "description": "Turns Remote Control on when you type in a desktop-app session, and off after 24 idle hours.",
       "category": "sessions",
-      "homepage": "https://github.com/lucas-saldanha-werneck/rc-auto"
+      "homepage": "https://github.com/lucas-saldanha-werneck/rc-auto",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "assumptions-pane",
@@ -64,7 +84,11 @@
       },
       "description": "A side pane that lists each assumption Claude makes, so you can mark it right or wrong.",
       "category": "side-panes",
-      "homepage": "https://github.com/lucas-saldanha-werneck/assumptions-pane"
+      "homepage": "https://github.com/lucas-saldanha-werneck/assumptions-pane",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "idea-shelf",
@@ -74,7 +98,11 @@
       },
       "description": "A side pane to park ideas mid-task without stopping Claude, then send them in one click.",
       "category": "side-panes",
-      "homepage": "https://github.com/lucas-saldanha-werneck/idea-shelf"
+      "homepage": "https://github.com/lucas-saldanha-werneck/idea-shelf",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "plan-checklist",
@@ -84,7 +112,11 @@
       },
       "description": "Claude's plan as a checklist in a side pane, ticked off as it works.",
       "category": "side-panes",
-      "homepage": "https://github.com/lucas-saldanha-werneck/plan-checklist"
+      "homepage": "https://github.com/lucas-saldanha-werneck/plan-checklist",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "clean-view",
@@ -94,7 +126,11 @@
       },
       "description": "One switch (/quiet) that hides the tool rows, so you read only the conversation.",
       "category": "side-panes",
-      "homepage": "https://github.com/lucas-saldanha-werneck/clean-view"
+      "homepage": "https://github.com/lucas-saldanha-werneck/clean-view",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "side-stack",
@@ -104,7 +140,11 @@
       },
       "description": "One side pane where the other side panes stack, instead of one tab each.",
       "category": "side-panes",
-      "homepage": "https://github.com/lucas-saldanha-werneck/side-stack"
+      "homepage": "https://github.com/lucas-saldanha-werneck/side-stack",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "give-up-guard",
@@ -114,7 +154,11 @@
       },
       "description": "Sends Claude back to check when it ends with \"didn't check\", gives up, or asks you for data it could find.",
       "category": "checks",
-      "homepage": "https://github.com/lucas-saldanha-werneck/give-up-guard"
+      "homepage": "https://github.com/lucas-saldanha-werneck/give-up-guard",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "wait-loop-guard",
@@ -124,7 +168,11 @@
       },
       "description": "Blocks Bash wait loops with no deadline, so Claude can't hang forever.",
       "category": "checks",
-      "homepage": "https://github.com/lucas-saldanha-werneck/wait-loop-guard"
+      "homepage": "https://github.com/lucas-saldanha-werneck/wait-loop-guard",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "self-improve",
@@ -134,7 +182,11 @@
       },
       "description": "Finds where you corrected Claude more than once and proposes the fix for your OK.",
       "category": "checks",
-      "homepage": "https://github.com/lucas-saldanha-werneck/self-improve"
+      "homepage": "https://github.com/lucas-saldanha-werneck/self-improve",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "polish",
@@ -144,7 +196,11 @@
       },
       "description": "A simplicity review in the style of Linear or Apple Notes: every change with its UX, DX and AX gain, applied only after you pick.",
       "category": "checks",
-      "homepage": "https://github.com/lucas-saldanha-werneck/polish"
+      "homepage": "https://github.com/lucas-saldanha-werneck/polish",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "llm-council",
@@ -154,7 +210,11 @@
       },
       "description": "Asks several LLMs through OpenRouter; they rank each other's answers and one writes the final answer.",
       "category": "checks",
-      "homepage": "https://github.com/lucas-saldanha-werneck/llm-council"
+      "homepage": "https://github.com/lucas-saldanha-werneck/llm-council",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "plugin-dev-guard",
@@ -164,7 +224,11 @@
       },
       "description": "Stops Claude from editing the installed copy of a plugin and points it to the source repo (or a fork and PR); checks repos against installed copies.",
       "category": "checks",
-      "homepage": "https://github.com/lucas-saldanha-werneck/plugin-dev-guard"
+      "homepage": "https://github.com/lucas-saldanha-werneck/plugin-dev-guard",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "side-notes",
@@ -174,7 +238,11 @@
       },
       "description": "Every few steps a side check looks for one thing you may have missed and shows it as a short note above the prompt.",
       "category": "checks",
-      "homepage": "https://github.com/lucas-saldanha-werneck/side-notes"
+      "homepage": "https://github.com/lucas-saldanha-werneck/side-notes",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "web-unlock",
@@ -184,7 +252,11 @@
       },
       "description": "What Claude does when a web fetch is blocked: steps per site type and a record of what worked.",
       "category": "web",
-      "homepage": "https://github.com/lucas-saldanha-werneck/web-unlock"
+      "homepage": "https://github.com/lucas-saldanha-werneck/web-unlock",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "web-unlock-guard",
@@ -194,7 +266,11 @@
       },
       "description": "Stops Claude from retrying a blocked site the same way.",
       "category": "web",
-      "homepage": "https://github.com/lucas-saldanha-werneck/web-unlock-guard"
+      "homepage": "https://github.com/lucas-saldanha-werneck/web-unlock-guard",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "op-secrets",
@@ -204,7 +280,11 @@
       },
       "description": "Save and load secrets through 1Password without the values entering the chat.",
       "category": "secrets",
-      "homepage": "https://github.com/lucas-saldanha-werneck/op-secrets"
+      "homepage": "https://github.com/lucas-saldanha-werneck/op-secrets",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "handoff-terminal",
@@ -214,7 +294,11 @@
       },
       "description": "A terminal session does the sign-in steps the desktop app refuses.",
       "category": "secrets",
-      "homepage": "https://github.com/lucas-saldanha-werneck/handoff-terminal"
+      "homepage": "https://github.com/lucas-saldanha-werneck/handoff-terminal",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "mac-remote",
@@ -224,7 +308,11 @@
       },
       "description": "Lets Claude see and control your Mac through Screen Sharing, even when it is locked.",
       "category": "mac",
-      "homepage": "https://github.com/lucas-saldanha-werneck/mac-remote"
+      "homepage": "https://github.com/lucas-saldanha-werneck/mac-remote",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "launchd-agenda",
@@ -234,7 +322,11 @@
       },
       "description": "Schedules Claude Code sessions on your Mac with launchd, with your local skills and hooks.",
       "category": "mac",
-      "homepage": "https://github.com/lucas-saldanha-werneck/launchd-agenda"
+      "homepage": "https://github.com/lucas-saldanha-werneck/launchd-agenda",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     },
     {
       "name": "api-credit",
@@ -244,7 +336,11 @@
       },
       "description": "Runs claude -p scripts on your plan's monthly API credit first, and on the subscription when the API refuses.",
       "category": "scripts",
-      "homepage": "https://github.com/lucas-saldanha-werneck/api-credit"
+      "homepage": "https://github.com/lucas-saldanha-werneck/api-credit",
+      "author": {
+        "name": "Lucas Saldanha Werneck",
+        "url": "https://github.com/lucas-saldanha-werneck"
+      }
     }
   ]
 }
